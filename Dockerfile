@@ -2,7 +2,7 @@ FROM centos:7.4.1708
 
 MAINTAINER Andy Cobaugh <andrew.cobaugh@gmail.com>
 
-ENV cfversion 3.10.3
+ENV cfversion 3.10.0
 ENV cfrelease 1
 
 RUN yum update -y --noplugins
